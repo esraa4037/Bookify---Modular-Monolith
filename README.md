@@ -53,7 +53,7 @@ Modules could communicate with each other through an interface which named with 
   ```
   python3 -m venv venv
   ```
-- Activate the environment
+- Activate the environment  
   on linux:
   ```
   source venv/bin/activate
