@@ -10,19 +10,19 @@ and booking appointments. The project is constructed in a modular monolith archi
 1. **Doctor Availability:**  
    a.​ As a doctor, I want to be able to list my slots  
    b.​ As a doctor, I want to be able to add new slots where a single time slot should have the following:  
-   i. Id: Guid  
-   ii.​ Time: Date → 22/02/2023 04:30 pm  
-   iii.​ IsReserved: bool  
-   iv.​ Cost: Decimal  
+      i. Id: Guid  
+      ii.​ Time: Date → 22/02/2023 04:30 pm  
+      iii.​ IsReserved: bool  
+      iv.​ Cost: Decimal  
 
 2. **Appointment Booking:**  
    a.​ As a Patient, I want to be able to view all doctors' available (only) slots  
    b.​ As a Patient, I want to be able to book an appointment on a free slot where. An Appointment should have the following:  
-   i.​ Id: Guid  
-   ii.​ SlotId: Guid  
-   iii.​ PatientId: Guid  
-   iv.​ PatientName: string  
-   v.​ ReservedAt: Date  
+      i.​ Id: Guid  
+      ii.​ SlotId: Guid  
+      iii.​ PatientId: Guid  
+      iv.​ PatientName: string  
+      v.​ ReservedAt: Date  
 
 3. **Appointment Confirmation:**  
    a.​ Once a patient schedules an appointment, the system should send a confirmation notification to the patient and the doctor  
@@ -35,8 +35,8 @@ and booking appointments. The project is constructed in a modular monolith archi
 
 ### Architecture
 
-**Modules:**
-The system consists of four modules each with a different architecture as follows:
+**Modules:**  
+The system consists of four modules each with a different architecture as follows:  
 a.​ **Doctor Availability Module:** Traditional Layered Architecture  
 b.​ **Appointment Booking Module:** Clean architecture  
 c.​ **Appointment Confirmation Module:** Traditional Layered architecture  
