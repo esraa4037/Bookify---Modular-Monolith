@@ -3,7 +3,7 @@
 Bookify is a backend system for a doctor appointment booking application. The system is designed for a specific single doctor and handles the logic behind managing
 and booking appointments. The project is constructed in a modular monolith architecture style. In this project we don't care about authentication or authorization (all APIs are public). The main focus of this project is to apply different architecture patterns in the modules and make these modules to communicate with each other using (direct call & events)
 
----
+
 
 ### Business requirements
 
@@ -30,7 +30,7 @@ and booking appointments. The project is constructed in a modular monolith archi
    a.​ As a Doctor, I want to be able to view my upcoming appointments.
    b.​ As a Doctor, I want to be able to mark appointments as completed or cancel them if necessary.
 
----
+
 
 ### Architecture
 
@@ -44,7 +44,7 @@ d.​ **Doctor Appointment Management:** Hexagonal Architecture
 **Communication between modules:**
 Modules could communicate with each other through an interface which named with 'facade' postfix and this can be occured just through the shared folders placed at each module. Some modules no one call them so its share folder is empty.
 
----
+
 
 ### Project setup
 
